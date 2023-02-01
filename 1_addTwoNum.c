@@ -8,3 +8,4 @@ void main(){
     scanf("%f",&b);
     printf("The sum of given numbers is: %.3f",a+b);
 } 
+   
