@@ -6,6 +6,6 @@ void main(){
     scanf("%f",&a);
     printf("Enter the second number for addition:");
     scanf("%f",&b);
-    printf("The sum of given numbers is: %.3f",a+b);
+    printf("The sum of %f and %f is: %.2f",a,b,a+b);
 } 
    
