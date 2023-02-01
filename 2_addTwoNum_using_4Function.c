@@ -1,14 +1,5 @@
 #include <stdio.h>
 
-float add(float x,float y){
-   
-    return(x+y);
-}
-
-void output(float* sum,float* A,float* B){ 
-   printf("The sum %f and %f is: %.2f",*A,*B,*sum); 
-}
-
 float intput1(float a){
     printf("Enter two numbers for addition\n");
     printf("Enter the first number for addition: ");
@@ -23,7 +14,17 @@ float intput2(float b){
     return(b);
 }
 
-int main()
+float add(float x,float y){
+   
+    return(x+y);
+}
+
+void output(float* sum,float* A,float* B){ 
+   printf("The sum %.2f and %.2f is: %.2f",*A,*B,*sum); 
+}
+
+
+int main() 
 {
     float add(float x,float y); 
     float A,B,sum,x,y;
