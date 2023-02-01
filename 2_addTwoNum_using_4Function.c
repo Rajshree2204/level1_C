@@ -4,16 +4,23 @@ float add(float x,float y){
    
     return(x+y);
 }
+
+void output(float* sum){
+   printf("The sum of two numder is: %.2f",*sum); 
+}
+
+
 int main()
 {
-    float add(float x,float y);
-    float sum,a,b;
-    printf("Enter two numbers to perform addition.\nEnter the first number for addition:");
+    float add(float x,float y); 
+    float a,b,sum;
+    printf("Enter two numbers for addition\n");
+    printf("Enter the first number for addition: ");
     scanf("%f",&a);
-    printf("Enter the second number for addition:");
-    scanf("%f",&b); 
+    printf("Enter the second for addition: ");
+    scanf("%f",&b);
     sum=add(a,b);
-    printf("Addition of %.2f and %.2f is: %.3f",a,b,sum); 
-
-    return 0;
-} 
+    void output();
+    output(&sum);
+    return 0; 
+}
