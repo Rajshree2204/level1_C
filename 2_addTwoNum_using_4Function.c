@@ -13,7 +13,7 @@ int main()
     printf("Enter the second number for addition:");
     scanf("%f",&b); 
     sum=add(a,b);
-    printf("Addition of the two numbers is: %.3f",sum); 
+    printf("Addition of %.2f and %.2f is: %.3f",a,b,sum); 
 
     return 0;
 } 
