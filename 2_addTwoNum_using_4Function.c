@@ -20,20 +20,20 @@ float add(float x,float y){
 }
 
 void output(float* sum,float* A,float* B){ 
-   printf("The sum %.2f and %.2f is: %.2f",*A,*B,*sum); 
+   printf("The sum of %.2f and %.2f is: %.3f",*A,*B,*sum); 
 }
 
 
 int main() 
 {
     float add(float x,float y); 
-    float A,B,sum,x,y;
+    float A,B,sum,a,b;
     float intput1(float a);
     float intput2(float b);
-    A=intput1(x);
-    B=intput2(y); 
-    sum=add(A,B);
     void output(float* sum,float* A, float* B);
+    A=intput1(a); 
+    B=intput2(b); 
+    sum=add(A,B);
     output(&sum,&A,&B);  
     return 0; 
 }
