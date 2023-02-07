@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 float intput1(float a){
-    printf("Enter a number for addition: ");
+    printf("Enter number for addition: ");
     scanf("%f",&a);
     return(a);
 }
