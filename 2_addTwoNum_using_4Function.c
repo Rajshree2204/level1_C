@@ -19,10 +19,10 @@ void output(float sum,float A,float B){
 
 int main() 
 {
-    float A,B,sum,a,b;
+    float A,B,sum;
     printf("Enter two numbers for addition\n");
-    A=intput1(a); 
-    B=intput1(b); 
+    A=intput1(A); 
+    B=intput1(B); 
     sum=add(A,B);
     output(sum,A,B);  
     return 0; 
