@@ -9,6 +9,7 @@ float intput1(float a){
 float add(float x,float y){
    
     return(x+y);
+    
 }
 
 void output(float sum,float A,float B){ 
