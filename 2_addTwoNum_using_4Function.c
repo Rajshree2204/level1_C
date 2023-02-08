@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-float intput1(char num[3]){
+float intput1(char input_num[4]){
     float a;
     printf("Enter %s for addition: ",num);
     scanf("%f",&a);
