@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-float intput1(char n[3]){
+float intput1(char num[3]){
     float a;
-    printf("Enter %s for addition: ",n);
+    printf("Enter %s for addition: ",num);
     scanf("%f",&a);
     return(a);
 }
