@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-float intput1(int n,char ord_suffix[3]){
+float input_num(int n,char ord_suffix[3]){
     float a;
     printf("Enter %d%s for addition: ",n,ord_suffix);
     scanf("%f",&a);
@@ -13,18 +13,18 @@ float add(float x,float y){
     
 }
 
-void output(float sum,float A,float B){ 
-   printf("The sum of %.2f and %.2f is: %.3f",A,B,sum); 
+void output(float sum,float num1,float num2){ 
+   printf("The sum of %.2f and %.2f is: %.3f",num1,num2,sum); 
 }
 
 
 int main() 
 {
-    float A,B,sum;
+    float num1,num2,sum;
     //printf("Enter two numbers for addition\n");
-    A=intput1(1,"st"); 
-    B=intput1(2,"nd"); 
-    sum=add(A,B);
-    output(sum,A,B);  
+    num1=input_num(1,"st"); 
+    num2=input_num(2,"nd"); 
+    sum=add(num1,num2);
+    output(sum,num1,num2);  
     return 0; 
 }
