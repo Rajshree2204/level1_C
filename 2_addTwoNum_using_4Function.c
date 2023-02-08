@@ -2,7 +2,7 @@
 
 float input_ith_num(int ith_num, char ord_suffix[3]){
     float a;
-    printf("Enter %d%s number for addition: ",n,ord_suffix);
+    printf("Enter %d%s number for addition: ",ith_num,ord_suffix);
     scanf("%f",&a);
     return(a);
 }
