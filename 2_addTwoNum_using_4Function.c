@@ -22,8 +22,8 @@ int main()
 {
     float A,B,sum;
     //printf("Enter two numbers for addition\n");
-    A=intput1(1,'st'); 
-    B=intput1(2,'nd'); 
+    A=intput1(1,"st"); 
+    B=intput1(2,"nd"); 
     sum=add(A,B);
     output(sum,A,B);  
     return 0; 
