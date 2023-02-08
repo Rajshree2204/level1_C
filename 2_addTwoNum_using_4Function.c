@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-float intput1(){
+float intput1(int n){
     float a;
-    printf("Enter number for addition: ");
+    printf("Enter number %d for addition: ",n);
     scanf("%f",&a);
     return(a);
 }
@@ -21,9 +21,9 @@ void output(float sum,float A,float B){
 int main() 
 {
     float A,B,sum;
-    printf("Enter two numbers for addition\n");
-    A=intput1(); 
-    B=intput1(); 
+    //printf("Enter two numbers for addition\n");
+    A=intput1(1); 
+    B=intput1(2); 
     sum=add(A,B);
     output(sum,A,B);  
     return 0; 
