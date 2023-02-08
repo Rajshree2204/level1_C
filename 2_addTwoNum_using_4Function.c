@@ -13,7 +13,7 @@ float add(float x,float y){
     
 }
 
-void output(float sum,float num1,float num2){ 
+void output_sum(float sum,float num1,float num2){ 
    printf("The sum of %.2f and %.2f is: %.3f",num1,num2,sum); 
 }
 
@@ -24,6 +24,6 @@ int main()
     num1= input_ith_num(1,"st"); 
     num2= input_ith_num(2,"nd"); 
     sum=add(num1,num2);
-    output(sum,num1,num2);  
+    output_sum(sum,num1,num2);  
     return 0; 
 }
